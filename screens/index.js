@@ -8,6 +8,8 @@ import Otp from "./Authentication/Otp";
 import ForgotPassword from "./Authentication/ForgotPassword";
 import QLTang from "./Home/QLTang.js";
 import Home from "./Home/Home";
+import ThemKhachHang from "./KhachHang/ThemKhachHang";
+import ThemSanPham from "./SanPham/ThemSanPham";
 export {
     OnBoarding,
     AuthLayout,
@@ -16,5 +18,7 @@ export {
     Otp,
     ForgotPassword,
     QLTang,
-    Home
+    Home,
+    ThemKhachHang,
+    ThemSanPham
 }

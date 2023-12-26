@@ -13,7 +13,9 @@ import {
     SignUp,
     ForgotPassword,
     Otp,
-    QLTang
+    QLTang,
+    ThemKhachHang,
+    ThemSanPham
 } from './screens'
 import Home from "./screens/Home/Home";
 
@@ -28,7 +30,7 @@ function App() {
                 screenOptions={{
                     headerShown: false
                 }}
-                initialRouteName={'Home'}
+                initialRouteName={'ThemSanPham'}
             >
                 <Stack.Screen
                     name="OnBoarding"
@@ -42,7 +44,16 @@ function App() {
                 <Stack.Screen
                     name="QLTang"
                     options={{headerShown: true, headerTitle: "Sơ đồ phòng"}}
-                    component={QLTang}
+                    component={QLTang} />
+                    <Stack.Screen
+                    name="ThemKhachHang"
+                    options={{headerShown: true, headerTitle: "Thêm Khách Hàng "}}
+                    component={ThemKhachHang} 
+                />
+                <Stack.Screen
+                    name="ThemSanPham"
+                    options={{headerShown: true, headerTitle: "Thêm Sản Phẩm "}}
+                    component={ThemSanPham} 
                 />
                 <Stack.Screen
                     name="SignIn"
