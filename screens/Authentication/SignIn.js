@@ -158,7 +158,8 @@ const SignIn = ({ navigation }) => {
                     style={{
                         flexDirection: 'row',
                         marginTop: SIZES.radius,
-                        justifyContent: 'center'
+                        justifyContent: 'center',
+                        marginHorizontal
                     }}
                 >
                     <Text
@@ -175,6 +176,7 @@ const SignIn = ({ navigation }) => {
                         buttonContainerStyle={{
                             marinLeft: 3,
                             backgroundColor: null
+                            
                         }}
                         labelStyle={{
 
