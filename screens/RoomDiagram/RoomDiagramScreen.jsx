@@ -295,9 +295,11 @@ const RoomDiagramScreen = ({ navigation }) => {
     <LayoutScreen title={'Quản lý phòng'} goBack={() => navigation.goBack()}>
       <FlatList
         style={styles.container}
-        data={data}
+        data={data
+        }
         renderItem={({ item }) => renderFloorItem(item)}
       />
+      <button style={{position: "absolute", bottom: 20, right: 20}}></button>
       <BottomSheet
         ref={bottomSheetRef}
         index={-1}
@@ -310,7 +312,7 @@ const RoomDiagramScreen = ({ navigation }) => {
             <Text style={styles.roomType}>Loại phòng : {dataSheet.type}</Text>
             {dataSheet.bookedRoomInfo && (
               <Text style={styles.customerName}>
-                Khách hàng : {dataSheet.bookedRoomInfo.customerInfo.fullName}
+                Khách hàng: {dataSheet.bookedRoomInfo.customerInfo.fullName}
               </Text>
             )}
             <View style={styles.services}>
