@@ -4,7 +4,11 @@ import {
     Text
 } from 'react-native';
 
+<<<<<<< HEAD
 export const OnBoarding = () => {
+=======
+const OnBoarding = () => {
+>>>>>>> main
     return (
         <View
             style={{

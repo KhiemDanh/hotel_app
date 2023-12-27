@@ -10,24 +10,26 @@ import { FONTS, SIZES, COLORS, icons } from "../../constants";
 const Home = ({ navigation, route }) => {
     console.log(route.params)
     return (
-        <View>
+        <TouchableOpacity>
             <View
                 style={{
                     flexDirection: 'row', // chia thành cột
                     alignItems: 'center',
-                    marginLeft: 10,
-                    marginRight: 10,
+                    //  marginLeft: 10,
+                    //  marginRight: 10,
                     justifyContent: 'space-beetwen',
                     alignItem: 'center',
                     flexWrap: 'wrap',
                     marginVertical: 20,
                     marginHorizontal: 20
+
                 }}
             >
                 <View
                     style={{
                         justifyContent: 'center',
                         marginRight: 10
+
                     }} >
                     <TouchableOpacity
                         style={{
@@ -35,6 +37,7 @@ const Home = ({ navigation, route }) => {
                             justifyContent: "center",
                             alignItems: 'center',
                             padding: 20,
+                            // margin:20,
                             borderRadius: 10
                         }}
                     // onPress={() => navigation.navigate("QLTang")}
@@ -42,15 +45,15 @@ const Home = ({ navigation, route }) => {
                         <Image
                             source={icons.bill}
                             style={{
-                                height: 80,
-                                width: 80,
+                                height: 60,
+                                width: 60,
                                 tintColor: COLORS.white,
                                 justifyContent: 'center',
                                 alignItems: 'center',
                             }}
                         />
                     </TouchableOpacity>
-                    <Text style={{ textAlign: "center", ...FONTS.h3, fontSize: 15, marginTop: 9 }}>Hóa đơn phòng</Text>
+                    <Text style={{ textAlign: "center", ...FONTS.h3, fontSize: 15, marginTop: 9 }}>Hóa đơn </Text>
                 </View>
 
                 <View
@@ -72,8 +75,8 @@ const Home = ({ navigation, route }) => {
                             style={{
                                 justifyContent: "center",
                                 alignItems: "center",
-                                height: 80,
-                                width: 80,
+                                height: 60,
+                                width: 60,
                                 tintColor: COLORS.white
 
                             }}
@@ -104,8 +107,8 @@ const Home = ({ navigation, route }) => {
                             source={icons.warehouse}
                             style={{
 
-                                height: 80,
-                                width: 80,
+                                height: 60,
+                                width: 60,
                                 tintColor: COLORS.white,
                                 justifyContent: "center",
                                 alignItems: "center",
@@ -119,8 +122,8 @@ const Home = ({ navigation, route }) => {
                 style={{
                     flexDirection: 'row', // chia thành cột
                     alignItems: 'center',
-                    marginLeft: 10,
-                    marginRight: 10,
+                    //  marginLeft: 10,
+                    //  marginRight: 10,
                     justifyContent: 'space-beetwen',
                     alignItem: 'center',
                     flexWrap: 'wrap',
@@ -146,8 +149,8 @@ const Home = ({ navigation, route }) => {
                         <Image
                             source={icons.tea}
                             style={{
-                                height: 80,
-                                width: 80,
+                                height: 60,
+                                width: 60,
                                 tintColor: COLORS.white,
                                 justifyContent: 'center',
                                 alignItems: 'center',
@@ -176,8 +179,8 @@ const Home = ({ navigation, route }) => {
                             style={{
                                 justifyContent: "center",
                                 alignItems: "center",
-                                height: 80,
-                                width: 80,
+                                height: 60,
+                                width: 60,
                                 tintColor: COLORS.white
 
                             }}
@@ -208,8 +211,8 @@ const Home = ({ navigation, route }) => {
                             source={icons.ticket}
                             style={{
 
-                                height: 80,
-                                width: 80,
+                                height: 60,
+                                width: 60,
                                 tintColor: COLORS.white,
                                 justifyContent: "center",
                                 alignItems: "center",
@@ -224,8 +227,8 @@ const Home = ({ navigation, route }) => {
                 style={{
                     flexDirection: 'row', // chia thành cột
                     alignItems: 'center',
-                    marginLeft: 10,
-                    marginRight: 10,
+                    //  marginLeft: 10,
+                    //  marginRight: 10,
                     justifyContent: 'space-beetwen',
                     alignItem: 'center',
                     flexWrap: 'wrap',
@@ -251,8 +254,8 @@ const Home = ({ navigation, route }) => {
                         <Image
                             source={icons.nhanvien}
                             style={{
-                                height: 80,
-                                width: 80,
+                                height: 60,
+                                width: 60,
                                 tintColor: COLORS.white,
                                 justifyContent: 'center',
                                 alignItems: 'center',
@@ -281,8 +284,8 @@ const Home = ({ navigation, route }) => {
                             style={{
                                 justifyContent: "center",
                                 alignItems: "center",
-                                height: 80,
-                                width: 80,
+                                height: 60,
+                                width: 60,
                                 tintColor: COLORS.white
 
                             }}
@@ -313,8 +316,8 @@ const Home = ({ navigation, route }) => {
                             source={icons.dv}
                             style={{
 
-                                height: 80,
-                                width: 80,
+                                height: 60,
+                                width: 60,
                                 tintColor: COLORS.white,
                                 justifyContent: "center",
                                 alignItems: "center",
@@ -324,7 +327,7 @@ const Home = ({ navigation, route }) => {
                     <Text style={{ textAlign: "center", ...FONTS.h3, fontSize: 15, marginTop: 9 }}>Dịch vụ</Text>
                 </View>
             </View>
-        </View>
+        </TouchableOpacity>
     )
 }
 

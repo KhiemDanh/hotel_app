@@ -13,7 +13,9 @@ import {
     ForgotPassword,
     Otp,
     QLTang,
-    RoomDiagramScreen
+    RoomDiagramScreen,
+    ThemKhachHang,
+    ThemSanPham
 } from './screens'
 import Home from "./screens/Home/Home";
 
@@ -44,6 +46,16 @@ function App() {
                         name="RoomDiagram"
                         // options={{ headerShown: true, headerTitle: "Sơ đồ phòng" }}
                         component={RoomDiagramScreen}
+                    />
+                    <Stack.Screen
+                        name="ThemKhachHang"
+                        options={{ headerShown: true, headerTitle: "Thêm Khách Hàng " }}
+                        component={ThemKhachHang}
+                    />
+                    <Stack.Screen
+                        name="ThemSanPham"
+                        options={{ headerShown: true, headerTitle: "Thêm Sản Phẩm " }}
+                        component={ThemSanPham}
                     />
                     <Stack.Screenr
                         name="SignIn"

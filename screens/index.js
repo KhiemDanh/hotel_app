@@ -10,6 +10,8 @@ import QLTang from "./Home/QLTang.js";
 import Home from "./Home/Home";
 import RoomDiagramScreen from "./RoomDiagram/RoomDiagramScreen";
 
+import ThemKhachHang from "./KhachHang/ThemKhachHang";
+import ThemSanPham from "./SanPham/ThemSanPham";
 export {
     OnBoarding,
     AuthLayout,
@@ -19,5 +21,7 @@ export {
     ForgotPassword,
     RoomDiagramScreen,
     QLTang,
-    Home
+    Home,
+    ThemKhachHang,
+    ThemSanPham
 }
