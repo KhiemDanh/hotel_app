@@ -8,6 +8,8 @@ import Otp from "./Authentication/Otp";
 import ForgotPassword from "./Authentication/ForgotPassword";
 import QLTang from "./Home/QLTang.js";
 import Home from "./Home/Home";
+import RoomDiagramScreen from "./RoomDiagram/RoomDiagramScreen";
+
 import ThemKhachHang from "./KhachHang/ThemKhachHang";
 import ThemSanPham from "./SanPham/ThemSanPham";
 export {
@@ -17,6 +19,7 @@ export {
     SignUp,
     Otp,
     ForgotPassword,
+    RoomDiagramScreen,
     QLTang,
     Home,
     ThemKhachHang,

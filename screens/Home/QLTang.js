@@ -89,7 +89,11 @@ const QLTang = ({ navigation }) => {
                                 boderRadius: SIZES.radius,
                                 backgroundColor: COLORS.primary
                             }}
+<<<<<<< HEAD
+                            onPress={() => navigation.navigate("Home", { id: item.id })}
+=======
                           onPress={() => navigation.navigate("Home", {id : item.id})}
+>>>>>>> main
                         />
                     );
                 }}

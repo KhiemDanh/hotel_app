@@ -26,15 +26,17 @@ const star = require("../assets/icons/star.png")
 const wallet = require("../assets/icons/wallet.png")
 const help = require("../assets/icons/help.png")
 const add = require("../assets/icons/add.png")
-const bill = require("../assets/icons/bill.png" )
-const room = require("../assets/icons/room.png" )
-const warehouse = require("../assets/icons/warehouse.png" )
-const tea = require("../assets/icons/tea.png" )
-const shop = require("../assets/icons/shop.png" )
-const ticket = require("../assets/icons/ticket.png" )
-const nhanvien = require("../assets/icons/nhanvien.png" )
-const kh = require("../assets/icons/kh.png" )
-const dv = require("../assets/icons/dv.png" )
+const bill = require("../assets/icons/bill.png")
+const room = require("../assets/icons/room.png")
+const warehouse = require("../assets/icons/warehouse.png")
+const tea = require("../assets/icons/tea.png")
+const shop = require("../assets/icons/shop.png")
+const ticket = require("../assets/icons/ticket.png")
+const nhanvien = require("../assets/icons/nhanvien.png")
+const kh = require("../assets/icons/kh.png")
+const dv = require("../assets/icons/dv.png")
+const arrow_left = require("../assets/icons/arrow_left.png")
+
 export default {
     coupon,
     cross,
@@ -72,5 +74,6 @@ export default {
     ticket,
     nhanvien,
     kh,
-    dv
+    dv,
+    arrow_left
 }

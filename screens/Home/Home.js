@@ -13,34 +13,34 @@ const Home = ({ navigation, route }) => {
         <TouchableOpacity>
             <View
                 style={{
-                   flexDirection: 'row', // chia thành cột
-                  alignItems: 'center',
+                    flexDirection: 'row', // chia thành cột
+                    alignItems: 'center',
                     //  marginLeft: 10,
                     //  marginRight: 10,
-                    justifyContent : 'space-beetwen',
-                   alignItem: 'center',
-                   flexWrap: 'wrap',
-                 marginVertical: 20,
-                marginHorizontal: 20
-                
+                    justifyContent: 'space-beetwen',
+                    alignItem: 'center',
+                    flexWrap: 'wrap',
+                    marginVertical: 20,
+                    marginHorizontal: 20
+
                 }}
             >
                 <View
                     style={{
-                       justifyContent: 'center',
-                        marginRight:10
-                        
+                        justifyContent: 'center',
+                        marginRight: 10
+
                     }} >
                     <TouchableOpacity
                         style={{
                             backgroundColor: '#02A9F7',
                             justifyContent: "center",
                             alignItems: 'center',
-                           padding:20,
-                         // margin:20,
+                            padding: 20,
+                            // margin:20,
                             borderRadius: 10
                         }}
-                       // onPress={() => navigation.navigate("QLTang")}
+                    // onPress={() => navigation.navigate("QLTang")}
                     >
                         <Image
                             source={icons.bill}
@@ -58,8 +58,8 @@ const Home = ({ navigation, route }) => {
 
                 <View
                     style={{
-                        marginRight:10
-                       // justifyContent: 'center',
+                        marginRight: 10
+                        // justifyContent: 'center',
                         //marginTop: 10
                     }} >
                     <TouchableOpacity
@@ -68,7 +68,7 @@ const Home = ({ navigation, route }) => {
                             padding: 20,
                             borderRadius: 10
                         }}
-                       onPress={() => navigation.navigate("QLTang")}
+                        onPress={() => navigation.navigate("RoomDiagram")}
                     >
                         <Image
                             source={icons.room}
@@ -82,14 +82,16 @@ const Home = ({ navigation, route }) => {
                             }}
                         />
                     </TouchableOpacity>
-                    <Text style={{ textAlign: "center", ...FONTS.h3, fontSize: 15, 
-                    marginTop: 9 }}>Sơ đồ phòng</Text>
-                   </View>
-                    
-                    <View
+                    <Text style={{
+                        textAlign: "center", ...FONTS.h3, fontSize: 15,
+                        marginTop: 9
+                    }}>Sơ đồ phòng</Text>
+                </View>
+
+                <View
                     style={{
                         justifyContent: 'center',
-                       marginTop: 10
+                        marginTop: 10
                     }} >
                     <TouchableOpacity
                         style={{
@@ -99,12 +101,12 @@ const Home = ({ navigation, route }) => {
                             padding: 20,
                             borderRadius: 10
                         }}
-                       // onPress={() => navigation.navigate("QLTang")}
+                    // onPress={() => navigation.navigate("QLTang")}
                     >
                         <Image
                             source={icons.warehouse}
                             style={{
-                                
+
                                 height: 60,
                                 width: 60,
                                 tintColor: COLORS.white,
@@ -115,30 +117,30 @@ const Home = ({ navigation, route }) => {
                     </TouchableOpacity>
                     <Text style={{ textAlign: "center", ...FONTS.h3, fontSize: 15, marginTop: 9 }}>Tồn kho</Text>
                 </View>
-                </View>
-                <View
+            </View>
+            <View
                 style={{
-                   flexDirection: 'row', // chia thành cột
-                  alignItems: 'center',
+                    flexDirection: 'row', // chia thành cột
+                    alignItems: 'center',
                     //  marginLeft: 10,
                     //  marginRight: 10,
-                    justifyContent : 'space-beetwen',
-                   alignItem: 'center',
-                   flexWrap: 'wrap',
-                 marginVertical: 20,
-                marginHorizontal: 20
+                    justifyContent: 'space-beetwen',
+                    alignItem: 'center',
+                    flexWrap: 'wrap',
+                    marginVertical: 20,
+                    marginHorizontal: 20
                 }}
             >
                 <View
                     style={{
-                       justifyContent: 'center',
-                        marginRight:10
+                        justifyContent: 'center',
+                        marginRight: 10
                     }} >
                     <TouchableOpacity
                         style={{
                             backgroundColor: '#02A9F7',
                             justifyContent: "center",
-                               alignItems: 'center',
+                            alignItems: 'center',
                             padding: 20,
                             borderRadius: 10
                         }}
@@ -160,8 +162,8 @@ const Home = ({ navigation, route }) => {
 
                 <View
                     style={{
-                        marginRight:10
-                       // justifyContent: 'center',
+                        marginRight: 10
+                        // justifyContent: 'center',
                         //marginTop: 10
                     }} >
                     <TouchableOpacity
@@ -170,7 +172,7 @@ const Home = ({ navigation, route }) => {
                             padding: 20,
                             borderRadius: 10
                         }}
-                      //  onPress={() => navigation.navigate("QLTang")}
+                    //  onPress={() => navigation.navigate("QLTang")}
                     >
                         <Image
                             source={icons.shop}
@@ -184,14 +186,16 @@ const Home = ({ navigation, route }) => {
                             }}
                         />
                     </TouchableOpacity>
-                    <Text style={{ textAlign: "center", ...FONTS.h3, fontSize: 15, 
-                    marginTop: 9 }}>Bán chạy</Text>
-                   </View>
-                    
-                    <View
+                    <Text style={{
+                        textAlign: "center", ...FONTS.h3, fontSize: 15,
+                        marginTop: 9
+                    }}>Bán chạy</Text>
+                </View>
+
+                <View
                     style={{
                         justifyContent: 'center',
-                       marginTop: 10
+                        marginTop: 10
                     }} >
                     <TouchableOpacity
                         style={{
@@ -201,12 +205,12 @@ const Home = ({ navigation, route }) => {
                             padding: 20,
                             borderRadius: 10
                         }}
-                       // onPress={() => navigation.navigate("QLTang")}
+                    // onPress={() => navigation.navigate("QLTang")}
                     >
                         <Image
                             source={icons.ticket}
                             style={{
-                                
+
                                 height: 60,
                                 width: 60,
                                 tintColor: COLORS.white,
@@ -217,31 +221,31 @@ const Home = ({ navigation, route }) => {
                     </TouchableOpacity>
                     <Text style={{ textAlign: "center", ...FONTS.h3, fontSize: 15, marginTop: 9 }}> Đặt phòng</Text>
                 </View>
-                </View>
+            </View>
 
-                <View
+            <View
                 style={{
-                   flexDirection: 'row', // chia thành cột
-                  alignItems: 'center',
+                    flexDirection: 'row', // chia thành cột
+                    alignItems: 'center',
                     //  marginLeft: 10,
                     //  marginRight: 10,
-                    justifyContent : 'space-beetwen',
-                   alignItem: 'center',
-                   flexWrap: 'wrap',
-                 marginVertical: 20,
-                marginHorizontal: 20
+                    justifyContent: 'space-beetwen',
+                    alignItem: 'center',
+                    flexWrap: 'wrap',
+                    marginVertical: 20,
+                    marginHorizontal: 20
                 }}
             >
                 <View
                     style={{
-                       justifyContent: 'center',
-                        marginRight:10
+                        justifyContent: 'center',
+                        marginRight: 10
                     }} >
                     <TouchableOpacity
                         style={{
                             backgroundColor: '#02A9F7',
                             justifyContent: "center",
-                               alignItems: 'center',
+                            alignItems: 'center',
                             padding: 20,
                             borderRadius: 10
                         }}
@@ -263,8 +267,8 @@ const Home = ({ navigation, route }) => {
 
                 <View
                     style={{
-                        marginRight:10
-                       // justifyContent: 'center',
+                        marginRight: 10
+                        // justifyContent: 'center',
                         //marginTop: 10
                     }} >
                     <TouchableOpacity
@@ -273,7 +277,7 @@ const Home = ({ navigation, route }) => {
                             padding: 20,
                             borderRadius: 10
                         }}
-                      //  onPress={() => navigation.navigate("QLTang")}
+                    //  onPress={() => navigation.navigate("QLTang")}
                     >
                         <Image
                             source={icons.kh}
@@ -287,14 +291,16 @@ const Home = ({ navigation, route }) => {
                             }}
                         />
                     </TouchableOpacity>
-                    <Text style={{ textAlign: "center", ...FONTS.h3, fontSize: 15, 
-                    marginTop: 9 }}>Khách hàng</Text>
-                   </View>
-                    
-                    <View
+                    <Text style={{
+                        textAlign: "center", ...FONTS.h3, fontSize: 15,
+                        marginTop: 9
+                    }}>Khách hàng</Text>
+                </View>
+
+                <View
                     style={{
                         justifyContent: 'center',
-                       marginTop: 10
+                        marginTop: 10
                     }} >
                     <TouchableOpacity
                         style={{
@@ -304,12 +310,12 @@ const Home = ({ navigation, route }) => {
                             padding: 20,
                             borderRadius: 10
                         }}
-                       // onPress={() => navigation.navigate("QLTang")}
+                    // onPress={() => navigation.navigate("QLTang")}
                     >
                         <Image
                             source={icons.dv}
                             style={{
-                                
+
                                 height: 60,
                                 width: 60,
                                 tintColor: COLORS.white,
@@ -320,7 +326,7 @@ const Home = ({ navigation, route }) => {
                     </TouchableOpacity>
                     <Text style={{ textAlign: "center", ...FONTS.h3, fontSize: 15, marginTop: 9 }}>Dịch vụ</Text>
                 </View>
-                </View>              
+            </View>
         </TouchableOpacity>
     )
 }
